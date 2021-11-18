@@ -56,6 +56,17 @@
           "type": "git"
         },
         {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#6CA35E",
+          "properties": {
+            "prefix": " \uF898 ",
+            "display_version": true
+          }
+        },
+        {
           "type": "python",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
@@ -66,6 +77,39 @@
             "display_version": true,
             "display_mode": "files",
             "display_virtual_env": false
+          }
+        },
+        {
+          "type": "php",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#4063D8",
+          "properties": {
+            "prefix": " \ue608 ",
+            "enable_hyperlink": false
+          }
+        },
+        {
+          "type": "ruby",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#AE1401",
+          "properties": {
+            "prefix": " \uE791 ",
+            "display_version": true,
+            "display_mode": "files"
+          }
+        },
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#111111",
+          "background": "#ffff66",
+          "properties": {
+            "root_icon": ""
           }
         },
         {
